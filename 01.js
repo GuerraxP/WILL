@@ -9,9 +9,15 @@ function soloNumeros(array) {
   // Debe devolver un arreglo con solo los enteros.
   // Ej: 
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
-
   // Tu código aca:
-
+  let nuevArray = []
+  for (let i = 0; i < array.length; i++){
+    if (typeof array[i] === "number") {
+      nuevArray.push(array[i])
+    }
+      
+  }
+  return nuevArray
 }
 
 // No modifiques nada debajo de esta linea //
