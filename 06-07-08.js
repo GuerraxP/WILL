@@ -77,7 +77,7 @@ function crearClasePersona() {
 
   return Persona;
 }
-
+//var person1 = new Persona("Yorge",38,["comer","correr"],{nombre:"jose",edad:25}
 // No modifiques nada debajo de esta linea //
 
 module.exports = crearClasePersona

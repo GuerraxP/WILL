@@ -14,13 +14,14 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
-  let busAmigo = {}
+  /*let busAmigo = {}
   for (let i = 0; i < amigos.length; i++){
     if (amigos[i].nombre === nombre) {
       busAmigo = amigos[i];
     }
   }
-  return busAmigo
+  return busAmigo*/
+  return amigos.find((amigo) => amigo.nombre === nombre);
 }
 
 // No modifiques nada debajo de esta linea //

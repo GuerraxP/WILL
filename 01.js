@@ -15,9 +15,11 @@ function soloNumeros(array) {
     if (typeof array[i] === "number") {
       nuevArray.push(array[i])
     }
-      
   }
   return nuevArray
+  /*return array.filter(function (elemento) {
+    return typeof elemento === "number";
+  });*/
 }
 
 // No modifiques nada debajo de esta linea //
